@@ -1,4 +1,4 @@
-#Ill just use my previous code here
+#I'll just use my previous code here
 
 num1 = float(input(f"Enter a first number: "))
 num2 = float(input(f"Enter a second number: "))

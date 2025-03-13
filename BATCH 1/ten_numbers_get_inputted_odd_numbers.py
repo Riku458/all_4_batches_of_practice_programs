@@ -1,4 +1,4 @@
-#Ill just use my previous code here
+#I'll just use my previous code here
 
 odd_num = 0
 

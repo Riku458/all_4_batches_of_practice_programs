@@ -8,9 +8,12 @@ def main():
 
     for i in range(10):
         while True:
-                num = float(input(f"Enter number {i + 1}: "))
-                numbers.append(num)
-                break
+                try:
+                    num = float(input(f"Enter number {i + 1}: "))
+                    numbers.append(num)
+                    break
+                except ValueError:
+                     print("Please put a valid input")
 
     for num in numbers:                 #Create a function that will get the first number of the duplicate number/s
         if num not in unique_numbers:

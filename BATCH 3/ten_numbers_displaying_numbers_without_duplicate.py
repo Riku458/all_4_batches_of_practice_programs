@@ -4,9 +4,12 @@ def main():
     print("Input 10 numbers:")
     for i in range(10):
         while True:
-            num = float(input(f"Number {i + 1}: "))
-            numbers.append(num)
-            break
+            try:    
+                num = float(input(f"Number {i + 1}: "))
+                numbers.append(num)
+                break
+            except ValueError:
+                print("Please put a valid input")
 
     unique_numbers = []             #Create a function that will find the number/s with duplicate and disregarding that number/s
     for num in numbers:

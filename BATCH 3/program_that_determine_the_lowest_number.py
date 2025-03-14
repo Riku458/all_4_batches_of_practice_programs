@@ -19,3 +19,8 @@ if numbers:
     print(f"The lowest number entered is: {lowest_number}")
 else:
     print("No valid numbers were entered")
+
+#I forget to commit the Pseudocode but here it is
+#Pseudocode:
+#Create a function that will get the numbers that the user wants
+#Create a function that will determine the lowest number

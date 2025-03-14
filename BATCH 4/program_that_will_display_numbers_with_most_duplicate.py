@@ -25,3 +25,5 @@ else:
         max_count = numbers.count(most_duplicate_num)
 
 #Display the output
+
+        print(f"The number that has most duplicates is: {most_duplicate_num}, having {max_count} times of appearance")

@@ -12,7 +12,11 @@ for i in range(10):
 
 #Create a function that will get the first number of the duplicate number/s
 
-
+for num in numbers:
+      if num not in unique_numbers:
+            unique_numbers.append(num)
 
 #Display all the numbers and the numbers with only one duplicate number/s
+
+print(unique_numbers)
 

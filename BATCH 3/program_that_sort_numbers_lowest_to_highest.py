@@ -12,3 +12,10 @@ while True:
 
 
 #Create a function that will sort the numbers from lowest to highest
+
+if numbers:
+        numbers.sort()
+        print("Numbers sorted from lowest to highest:")
+        print(numbers)
+else:
+    print("No valid numbers were entered.")

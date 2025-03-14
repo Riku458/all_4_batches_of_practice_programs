@@ -14,9 +14,11 @@ def main():
             unique_numbers.append(num)
 
     if unique_numbers:              #Printing the numbers without duplicate
-        print(f"Numbers that don't have duplicate: {unique_numbers}")
+        print("The numbers that don't have duplicates: ")              
+        for num in unique_numbers:
+            print(num)
     else:
-        print(f"All numbers are duplicate")
+        print(f"All numbers have duplicates")
 
 if __name__ == "__main__":
     main()

@@ -13,3 +13,9 @@ while True:
         break
 
 #Create a function that will determine the lowest number
+
+if numbers:
+    lowest_number = min(numbers)
+    print(f"The lowest number entered is: {lowest_number}")
+else:
+    print("No valid numbers were entered")

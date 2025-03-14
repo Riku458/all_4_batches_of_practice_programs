@@ -1,2 +1,2 @@
-# all_batch_4_practice_programs
+# all_4_batches_of_practice_programs
 THIS REPOSITORY IS USED FOR ALL THE FOUR BATCHES OF PRACTICE PROGRAMS IN OOP

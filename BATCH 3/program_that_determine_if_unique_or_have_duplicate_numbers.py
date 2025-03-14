@@ -16,6 +16,3 @@ while True:
     else:
         print(f"{numbers} - Unique")
         numbers.append(number)
-
-
-

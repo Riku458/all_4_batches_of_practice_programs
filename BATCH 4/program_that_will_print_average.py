@@ -12,3 +12,9 @@ while True:
         break
 
 #Create a function that will get the average of the numbers and display it
+
+if numbers:
+    average = sum(numbers) / len(numbers)
+    print(f"The average of the numbers is: {average}")
+else:
+    print("No valid numbers were entered.")
